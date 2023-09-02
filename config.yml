@@ -1,0 +1,35 @@
+baseURL: "https://traderhanoi.com"
+languageCode: en-us
+title: Trader HaNoi
+theme: PaperMod
+paginate: 6
+
+params:
+  env: production
+  homeInfoParams:
+    Title: "Hello"
+    Content: "Welcome to Trader Hanoi. We are HaNoian Traders. We hope that connecting consistently profitable traders around the world to share experiences and knowledges. Best regards."
+
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/nhagiaodich_com"
+    - name: tiktok
+      url: "https://tiktok.com/@nhagiaodich_com"
+    - name: facebook
+      url: "https://www.facebook.com/nhagiaodichcom"
+    - name: youtube
+      url: "https://www.youtube.com/@nhagiaodich_com"
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+
+menu:
+  main:
+    - identifier: about
+      name: Buy me a coffee
+      url: /buymeacoffee/
+      weight: 50
+    
