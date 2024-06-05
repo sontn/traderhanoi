@@ -11,6 +11,8 @@ params:
     Content: "Welcome to Trader Hanoi. We are Hanoian Traders. We hope that connecting consistently profitable traders around the world to share experiences and knowledges. Best regards."
 
   socialIcons:
+    - name: other
+      url: "https://one.exnesstrack.net/a/s0cxkwr4tg?platform=mobile&pid=mobile_share"
     - name: twitter
       url: "https://twitter.com/nhagiaodich_com"
     - name: tiktok
